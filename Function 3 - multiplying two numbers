@@ -1,0 +1,11 @@
+# Assignment
+
+Implement a function which multiplies two numbers.
+
+# Solution
+
+public class Kata {
+  public final int multiply(int a, int b) {
+    return a * b;
+  }
+}
