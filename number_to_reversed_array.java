@@ -20,3 +20,15 @@ public class Kata {
     return reversedDigits;
   }
 }
+
+// Can also be done with something like this:
+
+public class Kata {
+  public static int[] digitize(long n) {
+        return new StringBuilder().append(n)
+                                  .reverse()
+                                  .chars()
+                                  .map(Character::getNumericValue)
+                                  .toArray();
+  }
+}
